@@ -1,8 +1,25 @@
 aid: pickle
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pickle.png
 name: Pickle
-description: 'Pickle is a company surfaced as a portfolio company of craft-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: marketplace. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Pickle is a peer-to-peer fashion rental and resale marketplace that makes
+  closets across the United States shareable. Through its iOS app and web storefront,
+  shoppers rent, lend, buy, and sell clothing and accessories directly from one another
+  at a fraction of retail, with same-day local courier delivery and nationwide two-day
+  shipping, while owners earn income on pieces they already own between wears. Founded
+  in 2022 and headquartered in New York City, Pickle has raised roughly $20M (including
+  a $12M Series A) from investors including Craft Ventures. The company operates a
+  consumer marketplace with no publicly documented developer API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/pickle/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Marketplace
+- Fashion
+- Rental
+- Resale
+- Peer-to-Peer
+- Ecommerce
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/pickle-domain-security.yml
 - type: Website
   url: https://shoponpickle.com
+- type: GettingStarted
+  url: https://www.shoponpickle.com/how-it-works
+- type: Support
+  url: https://help.shoponpickle.com/en/
+- type: Blog
+  url: https://www.shoponpickle.com/blog
+- type: TermsOfService
+  url: https://www.shoponpickle.com/pickle-terms-of-service
+- type: SignUp
+  url: https://www.shoponpickle.com/auth/login
+- type: LinkedIn
+  url: https://www.linkedin.com/company/shop-on-pickle
+- type: iOSApp
+  url: https://apps.apple.com/us/app/pickle-rent-lend-fashion/id1551736097
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

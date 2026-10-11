@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "pickle",
+    "captured_at": "2026-10-11T191929",
+    "source_url": "https://shoponpickle.com",
+    "source_type": "Website",
+    "file": "pickle-2026-10-11T191929.png",
+    "bytes": 15088,
+    "capture": "playwright-local"
+  }
+]
